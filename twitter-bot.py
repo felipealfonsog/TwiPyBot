@@ -22,6 +22,8 @@ logger = logging.getLogger()
 
 
 # Own modules
+
+#----- commented 
 #from config import *
 
 #search_keywords = "%22animal crossing%22celeste"
