@@ -50,6 +50,9 @@ like_tweets = True
 def create_api():
     '''
 SECTION FOR CONFIG / AND AUTH.
+
+---
+
     '''
     consumerKey = "ENTER IT"
     consumerSecret = "ENTER IT"
