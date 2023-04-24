@@ -4,6 +4,7 @@
 [![Python 3.6 | 3.7 | 3.8](https://img.shields.io/badge/python-3.6%20|%20%203.7%20|%203.8-yellowgreen)](https://www.python.org/downloads/release/python-385/)
 [![Tweepy Version 3.9.0](https://img.shields.io/badge/tweepy-v3.9.0-brightgreen)](http://docs.tweepy.org/en/latest/)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 A Twitter bot written in Python using Tweepy and hosted on a server. It will like and/or retweet tweets that contain single or multiple keywords and hashtags.
 
