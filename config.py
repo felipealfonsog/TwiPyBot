@@ -39,6 +39,12 @@ retweet_tweets = True
 like_tweets = True
 
 
+'''
+
+THIS FILE WON'T BE USED.
+
+'''
+
 def create_api():
     '''
 consumerKey = ""

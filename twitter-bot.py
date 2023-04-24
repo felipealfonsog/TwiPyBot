@@ -63,13 +63,15 @@ SECTION FOR CONFIG / AND AUTH.
     auth.set_access_token(accessToken, accessTokenSecret)
     #api = tweepy.API(auth, wait_on_rate_limit=True)
     api = tweepy.API(auth, wait_on_rate_limit=True)
-#, wait_on_rate_limit=True, wait_on_rate_limit_notify=True
+#, wait_on_rate_limit=True, wait_on_rate_limit_notify=True //// <---- \\\\\\ deletes that prop. 
     try:
+# IT'S NECESSARY TO INSTALL 'PIP3 INSTALL CREDENTIALS' 
         api.verify_credentials()
     except Exception as e:
         logger.error('Authentication Error', exc_info=True)
         raise e
     logger.info(f"Authentication OK. Connected to @{api.get_user(screen_name='USERNAME HERE')}")
+# I had to change .get_user(screen_name='USERNAME IT')
 
     return api
 
@@ -121,6 +123,7 @@ def process_tweets(api, tweets):
         logger.info(f"Processing tweet: {tweet.text}")
 
         # Ignore tweet if it is from myself or if it is a reply to a tweet
+        # changed this part of the following line with --> get_user(screen_name='USERNAME HERE')
         if tweet.user.id != api.get_user(screen_name='USERNAME HERE').id or tweet.in_reply_to_status_id is not None:
 
             if retweet_tweets:
