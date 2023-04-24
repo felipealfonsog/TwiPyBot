@@ -77,12 +77,6 @@ SECTION FOR CONFIG / AND AUTH.
 
 
 
-
-
-
-
-
-
 __author__ = 'Felipe Alfonso Gonzalez'
 __version__ = '1.1.0'
 __maintainer__ = 'Felipe Alfonso Gonzalez'
@@ -100,6 +94,7 @@ def initialize_api():
 def get_tweets(api):
     # Exclude retweets from search to avoid repeats
     if run_continuously:
+        # now, in v4 of tweetpy is used like this: api.search_tweets
         tweets = tweepy.Cursor(api.search_tweets,
                         q=search_keywords + " -filter:retweets", 
                         count=100,
