@@ -28,7 +28,7 @@ logger = logging.getLogger()
 
 #search_keywords = "%22animal crossing%22celeste"
 
-search_keywords = "%22nueva zelanda"
+search_keywords = "%22Test"
 
 # Time to wait between processing a request in seconds 
 # Information about TwitterAPI limits here: https://developer.twitter.com/en/docs/twitter-api/v1/rate-limits
