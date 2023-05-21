@@ -1,4 +1,4 @@
-# Twitter Like and Retweet Bot --- Fixed Version 2023
+# Twitter Bot - New Version
 
 ![Version 1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)
 [![Python 3.6 | 3.7 | 3.8](https://img.shields.io/badge/python-3.6%20|%20%203.7%20|%203.8-yellowgreen)](https://www.python.org/downloads/release/python-385/)
@@ -6,7 +6,7 @@
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-A Twitter bot written in Python using Tweepy and hosted on a server. It will like and/or retweet tweets that contain single or multiple keywords and hashtags.
+A Twitter bot written in Python using Tweepy, other libs and it could be hosted locally using Python. It will like and/or retweet tweets that contain single or multiple keywords and hashtags in specific variable.
 
 ### Important Notice
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Starting February 9, we will no longer support free access to the Twitter API, both v2 and v1.1. A paid basic tier will be available instead 🧵</p>&mdash; Twitter Dev (<a href="https://twitter.com/TwitterDev/status/1621026986784337922?ref_src=twsrc%5Etfw">@TwitterDev</a>) February 2, 2023</blockquote>
