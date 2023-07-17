@@ -1,4 +1,5 @@
-# Twitter Bot - New Version
+# TwiPyBot
+Twitter Bot - New Version
 
 ![Version 1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)
 [![Python 3.6 | 3.7 | 3.8](https://img.shields.io/badge/python-3.6%20|%20%203.7%20|%203.8-yellowgreen)](https://www.python.org/downloads/release/python-385/)
